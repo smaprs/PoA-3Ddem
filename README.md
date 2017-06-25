@@ -5,6 +5,7 @@ This derived work is free to copy and share under CC-BY-SA 2.0. Only for non-pro
   
 See and browse it at:  
 https://smaprs.github.io/PoA-3Ddem/  
+(it may took a while to upload,it's11Mb)
   
  ![3D digital elevation model of Porto Alegre](http://i.imgur.com/3WLccer.jpg)  
    
