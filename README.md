@@ -5,7 +5,7 @@
 See and browse it at: https://smaprs.github.io/PoA-3Ddem/  
 (it may took a while to download,it's11Mb)
   
- ![3D digital elevation model of Porto Alegre](http://i.imgur.com/3WLccer.jpg)  
+ ![3D digital elevation model of Porto Alegre](http://i.imgur.com/oSiReTM.jpg)  
    
 Made in QGIS using:  
 -Qgis2threejs plugin for 3D digital elevation model processing - https://github.com/minorua/Qgis2threejs;  
