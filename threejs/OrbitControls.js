@@ -86,7 +86,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 	// Set to true to disable this control
 	this.noRotate = false;
-	this.rotateSpeed = 1.0;
+	this.rotateSpeed = 1.0; 
 	this.keyRotateAngle = Math.PI / 90;
 
 	// Set to true to disable this control
@@ -133,11 +133,11 @@ THREE.OrbitControls = function ( object, domElement ) {
 	var dollyEnd = new THREE.Vector2();
 	var dollyDelta = new THREE.Vector2();
 
-	var phiDelta = 0.2; // ângulo ao horizonte: 0=60dg; 0.4=30dg; 0.5=20dg; 0.79=0=horizontal;
+	var phiDelta = 0.6 // ângulo ao horizonte: 0=60dg; 0.25=20dg; 0.4=30dg; 0.5=20dg; 0.79=0=horizontal;
 	var thetaDelta = 0; // ângulo do azimute: 0=Norte; 0.25=Noroeste
 	var cameraPhiDelta = 0;
 	var cameraThetaDelta = 0;
-	var scale = 0.8;
+	var scale = 0.56; // zoom : 1=1x; 1.1=0.9x; 0.9=1.1x
 	var pan = new THREE.Vector3();
 
 	var lastPosition = new THREE.Vector3();
