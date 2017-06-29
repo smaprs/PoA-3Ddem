@@ -95,7 +95,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 	// Set to true to automatically rotate around the target
 	this.autoRotate = true;
-	this.autoRotateSpeed = 3.0; // 30 seconds per round when fps is 60: 6=60sec/round; 3=120sec/round
+	this.autoRotateSpeed = 10.0; // 30 seconds per round when fps is 60: 6=60sec/round; 3=120sec/round
 	
 	// How far you can orbit vertically, upper and lower limits.
 	// Range is 0 to Math.PI radians.
